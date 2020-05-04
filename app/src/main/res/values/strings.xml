@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Q U E A S Y</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text_brand">Brand</string>
+    <string name="text_places">Places</string>
+    <string name="text_people">People</string>
+    <string name="text_animal">Animal</string>
+    <string name="text_sport">Sport</string>
+    <string name="text_food"><![CDATA[Food & Drink]]></string>
+    <string name="title_score">Score</string>
+    <string name="title_setting">Setting</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">SELESAI</string>
+
+    <string name="slide_1_title">Intro App</string>
+    <string name="slide_1_desc">Deskripsi Intro App.</string>
+
+    <string name="slide_2_title">Gambar</string>
+    <string name="slide_2_desc">Aplikasi ini dilengkapi dengan gambar agar mudah dipahami.</string>
+
+    <string name="slide_3_title">Deskripsi</string>
+    <string name="slide_3_desc">Selain dilengkapi dengan gambar, dilengkapi pula dengan deskripsi penjelasan.</string>
+
+    <string name="slide_4_title">Menu Slider</string>
+    <string name="slide_4_desc">Pengguna dapat membuka halaman lain dengan hanya menggesernya tanpa harus keluar dari halaman terpilih.</string>
+
+</resources>
