@@ -17,6 +17,7 @@
     <color name="white">#FFFFFF</color>
     <color name="semiwhite">#ffebee</color>
     <color name="cardView">#fffafafa</color>
+    <color name="warnasplash">#534DA9</color>
 
     <!-- Screens background color-->
     <color name="bg_screen1">#f64c73</color>

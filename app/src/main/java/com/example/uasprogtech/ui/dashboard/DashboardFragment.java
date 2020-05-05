@@ -1,19 +1,20 @@
 package com.example.uasprogtech.ui.dashboard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
+import com.example.uasprogtech.QuestionActivity;
+import com.example.uasprogtech.QuestionActivity2;
+import com.example.uasprogtech.QuestionActivity3;
 import com.example.uasprogtech.R;
+
 
 public class DashboardFragment extends Fragment {
 
@@ -86,13 +87,17 @@ public class DashboardFragment extends Fragment {
     }
 
     private void openCategory3() {
+        Intent intent3 = new Intent(getContext(), QuestionActivity3.class);
+        startActivity(intent3);
     }
 
     private void openCategory2() {
-
+        Intent intent2 = new Intent(getContext(), QuestionActivity2.class);
+        startActivity(intent2);
     }
 
     private void openCategory1() {
-
+        Intent intent = new Intent(getContext(), QuestionActivity.class);
+        startActivity(intent);
     }
 }

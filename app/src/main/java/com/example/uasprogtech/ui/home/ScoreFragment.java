@@ -12,14 +12,16 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.example.uasprogtech.QuestionActivity;
 import com.example.uasprogtech.R;
 
 public class ScoreFragment extends Fragment {
 
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        final View view = inflater.inflate(R.layout.fragment_home, container, false);
-                return view;
+    TextView tv3;
+
+    public ScoreFragment(){
+
     }
+
+
 }
